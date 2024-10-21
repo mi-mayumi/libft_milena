@@ -6,7 +6,7 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 13:45:28 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/21 15:56:06 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:20:24 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,12 @@ char	*ft_strchr(const char *s, int c)
 	while (s[i] != '\0')
 	{
 		if (s[i] == c)
-			return ((char*)(&s[i]));
-		else
-			i++;
+			return ((char *)(&s[i]));
+		i++;
+	}
+	if (c == '\0')
+	{
+		return ((char *)(&s[i]));
 	}
 	return (NULL);
 }

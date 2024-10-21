@@ -6,18 +6,18 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 18:12:31 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/21 15:43:56 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:26:15 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(char *str)
+int	ft_strlen(const char *s)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
