@@ -6,10 +6,11 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 18:39:32 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/14 18:45:49 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/21 15:43:40 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <unistd.h>
 
 void	ft_putendl_fd(char *s, int fd)

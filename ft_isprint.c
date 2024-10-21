@@ -6,9 +6,11 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 17:20:57 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/15 17:36:51 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/21 15:43:03 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {
