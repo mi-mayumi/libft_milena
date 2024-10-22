@@ -159,9 +159,31 @@ int	main(void)
 	printf("%s\n", ft_strchr(s, c));
 	return (0);
 }
+----------------------------------------------------------------------------
+
+strrchr
+
+#include <stdio.h>
+
+int	main(void)
+{
+	char s[] = "Hello";
+	int c = 'l';
+
+	printf("%s\n", ft_strrchr(s, c));
+	return (0);
+}
 
 ----------------------------------------------------------------------------
 
+#include <stdio.h>
+
+int main()
+{
+    char *str = " 	-123ab";
+    printf("%d\n", ft_atoi(str));
+    return 0;
+}
 
 
 
