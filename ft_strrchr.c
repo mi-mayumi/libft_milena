@@ -6,26 +6,22 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 15:24:10 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/22 18:50:10 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/23 12:40:12 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *s);
-
 char	*ft_strrchr(const char *s, int c)
 {
 	unsigned int	i;
 
-	i = ft_strlen(s);
-	while (i >= 0)
+	i = ft_strlen(s) + 1;
+	while (i > 0)
 	{
-		if (s[i] == c)
-			return ((char *)(&s[i]));
+		if (s[i - 1] == (char)c)
+			return ((char *)(&s[i - 1]));
 		i--;
 	}
-	if (c == '\0')
-		return ((char *)(&s[i]));
 	return (NULL);
 }

@@ -6,12 +6,11 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 17:11:20 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/21 16:40:43 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/23 16:17:45 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void	ft_putchar_fd(char c, int fd)
 {

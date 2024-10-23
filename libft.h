@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/10/23 13:05:44 by mimayumi          #+#    #+#             */
+/*   Updated: 2024/10/23 13:08:09 by mimayumi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 
@@ -13,7 +25,7 @@
 #  define OPEN_MAX 32
 # endif
 
-typedef struct		s_list
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
@@ -66,7 +78,7 @@ void				ft_lstdelone(t_list *lst, void (*del)(void *));
 void				ft_lstclear(t_list **lst, void (*del)(void *));
 void				ft_lstiter(t_list *lst, void (*f)(void *));
 t_list				*ft_lstmap(t_list *lst,
-	void *(*f)(void *), void (*del)(void *));
+void	*(*f)(void *), void (*del)(void *));
 
 char				*ft_strtok(char *str, char sepa);
 int					get_next_line(int fd, char **line);

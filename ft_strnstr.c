@@ -6,9 +6,10 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 18:40:00 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/21 18:40:55 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/23 16:30:24 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+char	*ft_strnstr(const char *big, const char *little, size_t len);
