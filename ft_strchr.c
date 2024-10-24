@@ -6,7 +6,7 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 13:45:28 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/10/22 18:15:57 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/10/23 19:48:54 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,4 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)(&s[i]));
 	}
 	return (NULL);
-}
-
-#include<stdio.h>
-int main(void)
-{
-	char	*s ="abcd";
-	printf("%s, %s",s, ft_strchr(s, 'c'));
-	return(0);
 }
