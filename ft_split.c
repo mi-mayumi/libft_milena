@@ -6,7 +6,7 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 13:26:47 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/11/05 14:15:46 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/11/05 15:36:12 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static size_t	ft_countc(const char *s, char c)
 		while (s[i] && s[i++] != c)
 			o++;
 		if (o != 0)
-			counter ++;
+			counter++;
 	}
 	return (counter++);
 }
