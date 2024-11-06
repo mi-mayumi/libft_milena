@@ -6,7 +6,7 @@
 /*   By: mimayumi <mimayumi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 17:20:13 by mimayumi          #+#    #+#             */
-/*   Updated: 2024/11/05 14:16:24 by mimayumi         ###   ########.fr       */
+/*   Updated: 2024/11/06 17:19:13 by mimayumi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
 
+	if (!s || !fd)
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{
